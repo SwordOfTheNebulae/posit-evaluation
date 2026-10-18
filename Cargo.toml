@@ -1,0 +1,16 @@
+[package]
+name = "posit-project"
+version = "0.1.0"
+edition = "2024"
+
+# [lib]
+# name = "posit_project"
+# crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+fast-posit = "0.2.0"
+gnuplot = "0.0.46"
+image = "0.24.9"
+# malachite = "0.12.0"
+plotters = "0.3.7"
+rand = "0.10.3"
